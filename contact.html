@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallax Scrolling - Vainilla JS</title>
+
+  <!-- ESTILOS -->
+  <link rel="stylesheet" href="./contact-css/contact.css">
+
+  <!-- FUENTES -->
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Slackey&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sarala&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header id="header">
+
+
+    <div class="menu"></div>
+    <nav>
+      <ul class="menulist">
+        <li><a href="./index.html" class="active">HOME</a></li>
+
+      </ul>
+    </nav>
+
+
+  </header>
+
+  <section>
+    <img src="./imagenes/nube1.png" alt="nube1" id="nube1">
+    <img src="./imagenes/fondo_transparente.png" alt="" id="transparente">
+    <img src="./imagenes/nube2.png" alt="nube2" id="nube2">
+    <h2 id="slogan" style="display:none ;">¡Encuentra tu pasión!</h2>
+    <a href="#" id="btn" style="display: none ;">Ahora</a>
+    <img src="./imagenes/fondo.png" alt="fondo" id="fondo">
+    <img src="./imagenes/viento.png" alt="viento" id="viento">
+    <img src="./imagenes/persona.png" alt="persona" id="persona">
+  </section>
+
+  <div class="contact-section">
+    <div class="contact-headings" id="contact-headings">
+      <h2>Keep in touch</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="container-contact">
+      <img src="./imagenes/img-opacity50.png" alt="imagen pablo macedo">
+
+      <div class="contact-form">
+        <h4>Send me a message..</h4>
+
+        <form class="form">
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="Email">
+          <textarea placeholder="Place your message here..">
+              </textarea>
+          <button class="btn-submit">
+            Send message
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- SCRIPT -->
+  <script src="./parralax.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+
+
+.contact-section {
+  display: flex;
+  width: 100vw;
+  background-color: #050306;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+  
+  .container-contact {
+    padding:3em;
+    margin: 0 auto;  
+    display: flex;
+    align-items: center;
+  }
+  .contact-headings{
+    margin-left: 20px;
+  
+  }
+  
+  .contact-headings h2 {
+    
+      font-size: 2.5em;
+      text-align: center;
+      color: white;
+    
+    }
+    
+    
+  
+  
+  .contact-form h4{
+    color: #fff;
+  }
+  
+  .container-contact img {
+    width: 750px;
+    height: 700px;
+    bottom:0px;
+  }
+  .form {
+    display:flex;
+    flex-direction: column;
+    width:30vw;
+    margin-top: 2em;
+  }
+  .form input {
+    padding: 10px 20px;
+    margin-bottom:1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color:#fff;
+  }
+  
+  .form textarea {
+    height: 150px;
+    background: none;
+    color:#fff;
+    padding: 1.5em;
+    border: 1px solid #fff;
+  }
+  .btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
+  
+  }
+  .btn-submit :hover {
+    background-color:#fff;
+    box-shadow: none;
+  }
+
+
+  @media (max-width: 991px) {
+
+    .contact-section {
+      display: flex;
+      width: 100vw;
+      background-color: #050306;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .contact-headings {
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-headings h2 {
+  font-size: 2.5em;
+  text-align: center;
+  color: white;
+}
+
+.container-contact {
+  padding: 0px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.container-contact img {
+  display: none;
+  width: 750px;
+  height: 700px;
+  bottom: 0px;
+}
+
+.contact-form {
+  width: 80vw;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin-top: 2em;
+}
+
+#mapita{
+  width: 300px;
+  height: 300px;
+}
+  }
