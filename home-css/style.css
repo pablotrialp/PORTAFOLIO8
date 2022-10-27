@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -405,6 +405,7 @@ header .menu.active {
 }
 
 header .menu {
+  background-color: #cfe0ff;
   position: absolute;
   right: 40px;
   width: 40px;
