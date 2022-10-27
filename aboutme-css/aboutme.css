@@ -102,8 +102,13 @@
 }
 
   .about-info h2 {
+    visibility: hidden;
     font-size: 2em;
     color: #fff;
+}
+  
+  .divider {
+    visibility: hidden;
 }
 
 
